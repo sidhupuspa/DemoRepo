@@ -38,6 +38,11 @@ public class HomePageTest extends TestBase {
 	{
   Assert.assertTrue(homepage.verifyUsername());
 	}
+	@Test
+	public void testGit()
+	{
+		//update something to checkin again in git 
+	}
 	@AfterMethod
 	public void teardown()
 	{
@@ -45,5 +50,6 @@ public class HomePageTest extends TestBase {
 	}
 	
 
+	
 
 }
