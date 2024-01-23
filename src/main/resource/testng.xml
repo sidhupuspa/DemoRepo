@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FREE CRM Application Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.deepfeed.qa.ExtentReportListener.ExtentReporterNG" />
+<listener class-name="com.deepfeed.qa.util.MyTransfermer" />	
+</listeners>
+
+<!-- //create another source folder as : src/main/resources under your project 
+by right click on the project name and then create file and name as testng.xml-->
+<!-- ctrl+/ - shortcut to give comment in xml : After creating testng.xml file we can run multiple testfile at a time,
+ no need to run each testcases individually and 
+if we dont want to test any one or two testcase then we can comment 
+that class  
+like this you can group tcs and run sanity or regression by creating diss xml file 
+-->
+	<test name="Free CRM App Test Cases">
+		<classes>
+			<class name="com.deepfeed.qa.testcases.LoginPageTest"></class>
+			<class name="com.deepfeed.qa.testcases.HomePageTest"></class>
+	
+		</classes>
+	</test>
+</suite>
