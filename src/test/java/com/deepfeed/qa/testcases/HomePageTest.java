@@ -43,6 +43,10 @@ public class HomePageTest extends TestBase {
 	{
 		//update something to checkin again in git 
 	}
+	public void testGit2()
+	{
+		//update something to checkin again in git 
+	}
 	@AfterMethod
 	public void teardown()
 	{
